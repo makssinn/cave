@@ -1,0 +1,118 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: center;
+}
+.gameLog{
+    margin: 40px;
+    background: hsl(34, 71%, 58%);
+    border-radius: 15px;
+}
+.gameplace{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: end;
+    padding-right: 20vw;
+}
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: right;
+    justify-self: flex-end;
+    width: 25vw;
+    height: 25vw;
+}
+.cell{
+    width: 5vw;
+    height: 5vw;
+}
+.player{
+    background-color: salmon;
+}
+.items{
+    background-color: white;
+    color: purple;
+    font-size: 0.6vw;
+}
+.wall{
+    background-color: rgb(43, 43, 43);
+}
+.nothing{
+    background-color: white;
+}
+.dark{
+    background-color: black;
+}
+.slime{
+    background-color: green;
+}
+.wolf{
+    background-color: grey;
+}
+.bear{
+    background-color: saddlebrown;
+}
+.actions{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 10vw;
+}
+.Button{
+    margin: 3vw;
+    padding: 10px;
+    width: 30vw;
+    height: auto;
+    background-color: white;
+    min-width: 250px;
+    min-height: 50px;
+}
+.up{
+    padding: 1vw;
+    min-width: 0;
+    min-height: 0;
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    top: 55vh;
+    right: 5vw;
+}
+.down{
+    padding: 1vw;
+    min-width: 0;
+    min-height: 0;
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    top: 65vh;
+    right: 5vw;
+}
+.left{
+    padding: 1vw;
+    min-width: 0;
+    min-height: 0;
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    top: 60vh;
+    right: 10vw;
+}
+.right{
+    padding: 1vw;
+    min-width: 0;
+    min-height: 0;
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    top: 60vh;
+    right: 0vw;
+}
